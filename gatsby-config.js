@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-postcss',
+    `gatsby-plugin-glslify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
