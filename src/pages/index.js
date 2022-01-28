@@ -5,8 +5,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
-import Test from '../components/Test'
-import Test2 from '../components/Test2'
+// import Test from '../components/Test'
+// import Test2 from '../components/Test2'
 import Noisy from '../components/Noisy'
 
 const IndexPage = () => {
