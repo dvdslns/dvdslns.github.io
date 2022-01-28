@@ -117,7 +117,7 @@ const IndexPage = () => {
   return (
     <>
       <Canvas
-        dpr={window.devicePixelRatio}
+        dpr={[1, 2]}
         gl={{ alpha: false }}
         camera={{
           near: 0.01,
