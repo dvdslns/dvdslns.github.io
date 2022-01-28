@@ -1,6 +1,6 @@
-import React, { useRef } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
-import { OrbitControls } from "@react-three/drei"
+import React, { useRef } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
 
 const Object = () => {
   const ref = useRef()
@@ -20,7 +20,7 @@ const Object = () => {
 const Test = () => {
   return (
     <Canvas>
-      <color attach="background" args={["#1a1a40"]} />
+      <color attach="background" args={['#1a1a40']} />
       <OrbitControls />
       <Object />
     </Canvas>
